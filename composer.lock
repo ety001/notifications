@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5c6026b96e6fa11a641b51a6ba976f5e",
-    "content-hash": "5bd58fd976f1ee3e9611bc37c006ec46",
+    "hash": "63b76a22fc388e84f998812b77962a5a",
+    "content-hash": "ca26ae1b0f7beb77a847a801b0db9f8e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -895,6 +895,55 @@
                 "shell"
             ],
             "time": "2015-07-16 15:26:57"
+        },
+        {
+            "name": "sfnt/wechat-php-sdk",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sfnt/wechat-php-sdk.git",
+                "reference": "d14b8511f96cfcf0da5f413b446e69943cc3ea90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packagist.phpcomposer.com/files/sfnt/wechat-php-sdk/d14b8511f96cfcf0da5f413b446e69943cc3ea90.zip",
+                "reference": "d14b8511f96cfcf0da5f413b446e69943cc3ea90",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sfnt\\wechat\\sdk\\": "src/",
+                    "sfnt\\wechat\\qy\\sdk\\": "src/qy/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "dodgepudding",
+                    "email": "dodgepudding@gmail.com"
+                },
+                {
+                    "name": "binsee",
+                    "email": "binsee@163.com"
+                },
+                {
+                    "name": "sfnt",
+                    "email": "xiaosfnt@gmail.com"
+                }
+            ],
+            "description": "a wechat php api",
+            "keywords": [
+                "wechat",
+                "weixin"
+            ],
+            "time": "2015-06-20 06:40:04"
         },
         {
             "name": "swiftmailer/swiftmailer",
